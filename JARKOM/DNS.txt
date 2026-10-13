@@ -1,0 +1,83 @@
+Frame 6: Packet, 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface \Device\NPF_{E5F0EC4E-D635-4EC9-986F-1DCAD9E2B614}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{E5F0EC4E-D635-4EC9-986F-1DCAD9E2B614})
+        Interface name: \Device\NPF_{E5F0EC4E-D635-4EC9-986F-1DCAD9E2B614}
+        Interface description: Wi-Fi 2
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 13, 2026 15:49:57.871889000 SE Asia Standard Time
+    UTC Arrival Time: Oct 13, 2026 08:49:57.871889000 UTC
+    Epoch Arrival Time: 1791881397.871889000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 1.364200 milliseconds]
+    [Time since reference or first frame: 56.715900 milliseconds]
+    Frame Number: 6
+    Frame Length: 71 bytes (568 bits)
+    Capture Length: 71 bytes (568 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    Character encoding: ASCII (0)
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: CloudNetwork_9c:18:dd (04:68:74:9c:18:dd), Dst: VMware_9f:e1:85 (00:50:56:9f:e1:85)
+    Destination: VMware_9f:e1:85 (00:50:56:9f:e1:85)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CloudNetwork_9c:18:dd (04:68:74:9c:18:dd)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800) 
+    [Stream index: 3]
+Internet Protocol Version 4, Src: 10.252.132.99, Dst: 10.252.128.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 57
+    Identification: 0x8f67 (36711)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x90ee [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.252.132.99
+    Destination Address: 10.252.128.3
+    [Stream index: 3]
+User Datagram Protocol, Src Port: 62870, Dst Port: 53
+    Source Port: 62870
+    Destination Port: 53
+    Length: 37
+    Checksum: 0x0cb8 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 3]
+    [Stream Packet Number: 1]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (29 bytes)
+Domain Name System (query)
+    Transaction ID: 0x9c93
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        td01y00.pro: type A, class IN
+            Name: td01y00.pro
+            [Name Length: 11]
+            [Label Count: 2]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+    [Response In: 43]

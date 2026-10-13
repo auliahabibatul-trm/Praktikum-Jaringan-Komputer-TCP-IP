@@ -1,0 +1,126 @@
+Frame 55679: Packet, 407 bytes on wire (3256 bits), 407 bytes captured (3256 bits) on interface \Device\NPF_{E5F0EC4E-D635-4EC9-986F-1DCAD9E2B614}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{E5F0EC4E-D635-4EC9-986F-1DCAD9E2B614})
+        Interface name: \Device\NPF_{E5F0EC4E-D635-4EC9-986F-1DCAD9E2B614}
+        Interface description: Wi-Fi 2
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 13, 2026 15:56:48.086577900 SE Asia Standard Time
+    UTC Arrival Time: Oct 13, 2026 08:56:48.086577900 UTC
+    Epoch Arrival Time: 1791881808.086577900
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 2.600 microseconds]
+    [Time delta from previous displayed frame: 8.248100 milliseconds]
+    [Time since reference or first frame: 1 minute, 4.066705800 seconds]
+    Frame Number: 55679
+    Frame Length: 407 bytes (3256 bits)
+    Capture Length: 407 bytes (3256 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    Character encoding: ASCII (0)
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: Cisco_bb:fa:06 (c8:28:e5:bb:fa:06), Dst: CloudNetwork_9c:18:dd (04:68:74:9c:18:dd)
+    Destination: CloudNetwork_9c:18:dd (04:68:74:9c:18:dd)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Cisco_bb:fa:06 (c8:28:e5:bb:fa:06)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 38]
+Internet Protocol Version 4, Src: 202.9.85.176, Dst: 10.252.132.99
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 393
+    Identification: 0xfb64 (64356)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 63
+    Protocol: TCP (6)
+    Header Checksum: 0x8ff1 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 202.9.85.176
+    Destination Address: 10.252.132.99
+    [Stream index: 816]
+Transmission Control Protocol, Src Port: 80, Dst Port: 57272, Seq: 1, Ack: 79, Len: 353
+    Source Port: 80
+    Destination Port: 57272
+    [Stream index: 216]
+    [Stream Packet Number: 6]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 353]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 1844423473
+    [Next Sequence Number: 354    (relative sequence number)]
+    Acknowledgment Number: 79    (relative ack number)
+    Acknowledgment number (raw): 2678121661
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 502
+    [Calculated window size: 64256]
+    [Window size scaling factor: 128]
+    Checksum: 0xc6eb [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 62.700700 milliseconds]
+        [Time since previous frame in this TCP stream: 2.600 microseconds]
+    [SEQ/ACK analysis]
+        [iRTT: 49.079000 milliseconds]
+        [Bytes in flight: 353]
+        [Bytes sent since last PSH flag: 353]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (353 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 301 Moved Permanently\r\n
+        Response Version: HTTP/1.1
+        Status Code: 301
+        [Status Code Description: Moved Permanently]
+        Response Phrase: Moved Permanently
+    Server: nginx\r\n
+    Date: Tue, 13 Oct 2026 08:56:47 GMT\r\n
+    Content-Type: text/html\r\n
+    Content-Length: 162\r\n
+        [Content length: 162]
+    Connection: keep-alive\r\n
+    Location: https://www.pens.ac.id/\r\n
+    \r\n
+    [Request in frame: 55675]
+    [Time since request: 8.248100 milliseconds]
+    [Request URI: /]
+    [Full request URI: http://www.pens.ac.id/]
+    File Data: 162 bytes
+Line-based text data: text/html (7 lines)
+    <html>\r\n
+    <head><title>301 Moved Permanently</title></head>\r\n
+    <body>\r\n
+    <center><h1>301 Moved Permanently</h1></center>\r\n
+    <hr><center>nginx</center>\r\n
+    </body>\r\n
+    </html>\r\n
